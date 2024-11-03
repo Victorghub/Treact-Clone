@@ -7,4 +7,46 @@
 
 /*RE-USABLE CODE*/
 
+.no__cursor {
+    cursor: not-allowed;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/**/
+
+
+/*Landing Page*/
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    width: 40px;
+}
+
+.nav__logo--text {
+    display: flex;
+    align-items: center
+}
+
+.treact__text {
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+.treact__text:hover {
+    color: purple;
+    cursor: pointer;
+}
