@@ -236,7 +236,7 @@ html {
 
 .features__container {
     position: relative;
-    padding: 80px;
+    padding: 96px 0px;
 }
 
 .three__column--container {
@@ -297,24 +297,29 @@ html {
 .services {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .service {
     display: flex;
-    margin-left: 16px;
-    margin-right: 16px;
     height: 100%;
     padding: 32px 8px;
-    background-color: aliceblue;
+    width: calc(100% / 3)
+
 }
 
-.service, .img__wrapper {
+.img__wrapper {
+    display: flex;
+    flex-shrink: 0;
     border-style: solid;
     border-radius: 50px;
-    border-width: 1px;
     padding: 20px;
+    border-width: 1px;
     text-align: center;
-    width: calc(100%/3);
+    margin-bottom: 78.4px;
+    color: rgb(124, 139, 161);
 }
 
 .service__description {
