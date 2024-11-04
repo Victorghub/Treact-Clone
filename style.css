@@ -9,8 +9,16 @@
 
 /*RE-USABLE CODE*/
 
+button {
+    cursor: pointer;
+}
+
 .no__cursor {
     cursor: not-allowed;
+}
+
+h1 {
+    margin: 0;
 }
 
 html {
@@ -27,6 +35,10 @@ html {
     min-height: 100vh;
     overflow: hidden;
     padding: 32px;
+}
+
+.purple {
+    color: #6415FF;
 }
 
 /**/
@@ -87,3 +99,58 @@ html {
     color: white;
     font-weight: 600;
 }
+
+/*Wrapper Columns*/
+
+.wrapper__columns {
+    position: relative;
+}
+
+.column__margin {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left__column {
+    width: 40%;
+    max-width: none;
+    text-align: left;
+}
+
+.bt4u__h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.para {
+    font-size: 16px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    color: #243E63;
+}
+
+.input__ew {
+    width: 100%;
+    border-width: 2px;
+    border-radius: 50px;
+    padding-left: 32px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 192px;
+}
+
+.email__wrapper, .button__ew {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
