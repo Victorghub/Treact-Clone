@@ -13,6 +13,10 @@ button {
     cursor: pointer;
 }
 
+p {
+    margin: 0px;
+}
+
 .no__cursor {
     cursor: not-allowed;
 }
@@ -214,4 +218,93 @@ html {
     min-width: 0;
     max-width: 764px;
     height: auto;
+}
+
+/*Features Section*/
+
+#features {
+    transform: none;
+}
+
+.features__container {
+    position: relative;
+    padding: 80px;
+}
+
+.three__column--container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 1024px;
+    flex-flow: column wrap;
+}
+
+.features__h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+    font-size:16px;
+    margin-bottom: 16px;
+}
+
+.features__h2 {
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    font-size: 48px;
+    color: #243E63;
+    margin-bottom: 16px;
+}
+
+.amazing__cap {
+    transition: all 2500ms ease;
+}
+
+.amazing__cap:hover {
+    cursor: crosshair;
+    color: #6315ff53;
+    text-shadow: 20px;
+}
+
+.features__p {
+    text-align: center;
+    width: 100%;
+    max-width: 576px;
+    line-height: 1.62;
+    color: #7c8ba1;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.container__spacer {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.colums__features {
+    width: calc(100% / 3);
+    max-width: 384px;
+}
+
+.features__card {
+    display: flex;
+    height: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features__card, .image__container {
+    flex-shrink: 0;
+    border-radius: 9999px;
+    border-width: 1px;
+    padding: 20px;
+    text-align: center;
 }
