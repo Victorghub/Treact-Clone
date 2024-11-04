@@ -13,6 +13,10 @@ button {
     cursor: pointer;
 }
 
+img {
+    width: 100%;
+}
+
 p {
     margin: 0px;
 }
@@ -43,6 +47,10 @@ html {
 
 .purple {
     color: #6415FF;
+}
+
+.title {
+    color: #243E63;
 }
 
 /**/
@@ -284,27 +292,50 @@ html {
     margin-top: 40px;
 }
 
-.colums__features {
-    width: calc(100% / 3);
-    max-width: 384px;
-}
+/*AFTER SPACER*/
 
-.features__card {
-    display: flex;
-    height: 100%;
-    margin-left: 16px;
-    margin-right: 16px;
-}
-
-.service {
+.services {
     display: flex;
     flex-wrap: wrap;
 }
 
-.features__card, .image__container {
-    flex-shrink: 0;
-    border-radius: 9999px;
+.service {
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 100%;
+    padding: 32px 8px;
+    background-color: aliceblue;
+}
+
+.service, .img__wrapper {
+    border-style: solid;
+    border-radius: 50px;
     border-width: 1px;
     padding: 20px;
     text-align: center;
+    width: calc(100%/3);
+}
+
+.service__description {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0 0 16px;
+    text-align: left;
+}
+
+.service, .title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.025em;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+    --tw-text-opacity: 1;
+    color: rgb(124 139 161 / var(--tw-text-opacity));
+    margin-top: 16px;
 }
