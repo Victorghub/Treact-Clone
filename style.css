@@ -411,3 +411,8 @@ html {
 .pxlm__button:active {
     transform: translateY(1px);
 }
+
+/*Steps Section*/
+.steps__container {
+    padding: 96px 0px;
+}
