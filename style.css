@@ -414,5 +414,24 @@ html {
 
 /*Steps Section*/
 .steps__container {
-    padding: 96px 0px;
+    padding: 96px 0px; 
+    margin: 0px 115px;
+}
+
+.steps__column--left {
+    position: relative;
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.steps__two--columns {
+    margin: 0;
+}
+
+.steps__column--right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0px;
+    text-align: left;
 }
