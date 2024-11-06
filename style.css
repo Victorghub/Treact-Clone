@@ -360,6 +360,7 @@ html {
     justify-content: space-between;
     padding: 96px 0;
     margin: 0px 106.5px;
+    margin: 0 auto;
 }
 
 .column__left {
@@ -413,6 +414,7 @@ html {
 }
 
 /*Steps Section*/
+
 .steps__container {
     padding: 96px 0px; 
     margin: 0px 115px;
