@@ -704,6 +704,52 @@ html {
 }
 
 .footer__h5 {
-    font-size: 15px;
-    
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.linked__list--footer {
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.linked__list--item {
+    margin-top: 12px;
+}
+
+.background__divider {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.162);
+}
+
+.background__three--rows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__t--footer {
+    width: 32px;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer__ti {
+    font-size: 20px;
+    margin-left: 8px;
+    font-weight: 900;
+    letter-spacing: 0.5;
+}
+
+.footer__p {
+
 }
