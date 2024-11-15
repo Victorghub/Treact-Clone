@@ -780,3 +780,137 @@ display: flex;
     margin: 0 auto;
 }
 
+/*Mobile Friendly - First Part*/
+
+@media (max-width: 1024px) {
+    .nav__link {
+        display: none;
+    }
+}
+
+@media (max-width: 1026px) {
+    .illustration__container {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .sign__up--button {
+        display: none;
+    }
+    .fa-solid {
+        cursor: not-allowed;
+    }
+    .column__margin {
+        flex-direction: column;
+        }
+    .left__column {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 512rem;
+        text-align: center;
+        width: 55%;
+    }
+    .bt4u__h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.25;
+    }
+    .para {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .email__wrapper {
+       position: relative;
+       margin-left: auto;
+       margin-right: auto;
+       max-width: 448px;
+       text-align: center;
+    }
+    .trusted__customers {
+        padding: 0;
+        margin-top: 48px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .trusted_cx--text {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .column__right {
+        position: relative;
+        margin-top: 48px;
+        display: flex;
+        justify-content: center;
+    }
+    .features__container {
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    .features__p {
+        font-size: 16px;
+    }
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .service {
+        position: relative;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 50%;
+        height: 30%;
+        max-width: 375px;
+    }
+    .quality__two--columns {
+        flex-direction: row;
+        width: 100%;
+    }
+    .column__left {
+        width: 50%;
+        margin: 0px;
+    }
+    .qw {
+        letter-spacing: 0.1em;
+        font-weight: 700;
+    }
+    .dbp {
+        font-size: 36px;
+        font-weight: 900;
+        text-align: left;
+        margin-top: 16px;
+        padding: 0px;
+        max-width: 75%;
+    }
+    .qwpara {
+        margin-top: 16px;
+        font-size: 16px;
+        text-align: left;
+        max-width: 95%;
+    }
+    .pxlm__button {
+        width: 30%;
+    }
+    .steps__container {
+        margin: 0px;
+    }
+    .steps__h2 {
+        font-size: 36px;
+    }
+    .three__plans {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
